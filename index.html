@@ -1,12 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Search</title>
-    </head>
-    <body>
-        <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <title>Google Search</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Google Search</a></li>
+                <li><a href="image.html">Image Search</a></li>
+                <li><a href="advanced.html">Advanced Search</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="search-container">
+            <div id="logo">
+                <!-- Google logo here -->
+            </div>
+            <div id="search-bar">
+                <form action="https://www.google.com/search" method="GET">
+                    <input type="text" name="q" id="search-input" placeholder="Search Google">
+                    <button type="submit" id="search-button">Google Search</button>
+                    <button type="submit" id="lucky-button" formaction="https://www.google.com/search" formmethod="GET" name="btnI">I'm Feeling Lucky</button>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
 </html>
