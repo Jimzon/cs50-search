@@ -7,7 +7,7 @@ body {
 
 header {
   background-color: #fff;
-  border-bottom: 1px solid #ccc;
+  /* border-bottom: 1px solid #ccc; */
   padding: 10px 10px;
   text-align: right;
 }
