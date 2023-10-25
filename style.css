@@ -29,7 +29,7 @@ nav ul li a {
 
 main {
   text-align: center;
-  padding: 100px 0;
+  padding: 60px 0;
 }
 
 #search-container {
@@ -75,6 +75,12 @@ main {
   background-color: #0f9d58;
 }
 
+h2 {
+  color: red;
+}
+h4 {
+  font-weight: 600;
+}
 #search-button:hover,
 #lucky-button:hover {
   background-color: #357ae8;
@@ -84,19 +90,27 @@ main {
   justify-content: center;
 }
 
-/* Add this CSS for advanced search styling */
+/* Advanced search css */
 #advanced-search {
   text-align: left;
   padding: 20px;
+  width: 100%;
 }
 
 .search-options {
   margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .search-options label {
   display: block;
-  font-weight: bold;
+  font-weight: 500;
+  font-size: 16px;
+}
+.search-options input {
+  width: 220px;
+  height: 20px;
 }
 
 #advanced-search-button {
